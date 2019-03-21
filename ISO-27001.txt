@@ -8,3 +8,24 @@ The Statement of Applicability Is A Crucial Component of An ISO 27001 Risk Asses
   .Justifications as to why any of the ISO 27001 Annex A controls were excluded.
 
 }
+
+
+Annex A
+-------
+{
+    Annex A,have133 security controls.
+    
+    Annex A contains the following clauses (sometimes called ISO 27001 Annex A domains):
+
+    A.5 Security policy
+    A.6 Organization of information security
+    A.7 Asset management
+    A.8 Human resources security
+    A.9 Physical and environmental security
+    A.10 Communications and operations management
+    A.11 Access control
+    A.12 Information systems acquisition, development and maintenance
+    A.13 Information security incident management
+    A.14 Business continuity management
+    A.15 Compliance
+}
