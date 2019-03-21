@@ -1,0 +1,10 @@
+The Statement of Applicability Is A Crucial Component of An ISO 27001 Risk Assessment
+-------------------------------------------------------------------------------------
+{
+  According to ISO/IEC 27001:2013, organizations performing a ISO 27001 Risk Assessment must produce a Statement of Accountability that includes the following:
+  .A listing of established security controls, based on specific operations, that serve to safely manage collected, stored and transmitted customer data.
+  .Justifications for including controls.
+  .Whether the controls have been implemented or not.
+  .Justifications as to why any of the ISO 27001 Annex A controls were excluded.
+
+}
