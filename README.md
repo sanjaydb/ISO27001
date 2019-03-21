@@ -1,4 +1,4 @@
-trizeus.com
-===========
-
-Web Site Of Trizeus
+My Internet Notes on
+--------------------
+ISO 27001 
+QMS
