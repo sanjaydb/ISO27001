@@ -1,6 +1,18 @@
 My Notes From Internet
 
 
+What is Risk Assessment
+-----------------------
+{
+  organization should recognize all the potential problems with their information, how likely they are to occur and what the 
+  consequences might be. The purpose of risk assessment is to find out which controls are needed in order to decrease the risk – 
+  selection of controls is called the risk treatment process, and in ISO 27001 they are chosen from Annex A which specifies 114 
+  controls.
+}
+
+
+
+
 The Statement of Applicability Is A Crucial Component of An ISO 27001 Risk Assessment
 -------------------------------------------------------------------------------------
 {
@@ -20,7 +32,7 @@ The Statement of Applicability Is A Crucial Component of An ISO 27001 Risk Asses
 Annex A
 -------
 {
-    Annex A,have133 security controls, they also cover physical security, legal protection, human resources management, organizational 
+    Annex A,have 133 security controls, they also cover physical security, legal protection, human resources management, organizational 
     issues, etc. Therefore, you could consider Annex A as a form of a catalog of security measures to be used during your treatment 
     process - once you identify unacceptable risks in risk assessment, Annex A will help you choose the right control(s) to decrease 
     those risks. And ensure you don't forget any important control.
