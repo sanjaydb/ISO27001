@@ -171,3 +171,83 @@ Annex A
     A.14 Business continuity management
     A.15 Compliance
 }
+
+ Data Center Audit
+ -----------------
+ {
+ 	Data Center should be to start with a risk assessment
+ 	In a risk assessment, you analyze the threats, vulnerabilities and risks that can be present for a Data Center
+
+ 	Threats
+  --------
+	The following are examples of the most common threats to Data Centers:
+
+	.Breach of confidential information
+	.Denial of Service (DoS) Attack
+	.Unauthorized access and usage of computing resources
+	.Identity theft
+	.Data theft or alteratio
+
+	Vulnerabilities
+  ---------------
+	The most common weaknesses in Data Centers are related to the following areas:
+
+	.The flaws in the implementation of things like software and protocols, wrong software design or incomplete testing, etc.
+	.Configuration flaws such as usage of default credentials, elements not properly configured, known vulnerabilities, out of date 
+   systems, etc.
+	.Ineffective security design
+	.Ineffective implementation of redundancy for critical systems
+	.Ineffective physical access control/lack of environmental controls, etc.
+
+	Physical security controls
+  --------------------------
+  {
+	  
+    .The selected security controls should be able to handle everything ranging from natural disasters to corporate espionage to 
+    terrorist attacks
+	
+    Examples of physical security controls include the following:
+    -------------------------------------------------------------
+    {
+        .Secure Site selection by considering location factors like networking services, proximity to power grids, telecommunications 
+         infrastructure, transportation lines and emergency services, geological risks and climate, etc.
+        .Natural disaster risk-free locations or Disaster Recovery site
+        .Physical Access Control with anti-tailgating/anti-pass-back turnstile gate which permits only one person to pass through after 
+         authentication
+        .Single entry point into the facility
+        .Additional physical access restriction to private racks
+        .CCTV camera surveillance with video retention as per organization policy
+        .24×7 on-site security guards, Network Operations Center (NOC) Services and technical team
+        .Regular maintenance of hardware in use
+        .Monitoring access control/activities
+        .Air conditioning and indirect cooling to control the temperature and humidity
+        .Monitoring of temperature and humidity
+        .Uninterruptible Power Supply (UPS)
+        .Smoke detectors to provide early warning of a fire at its incipient stage
+        .Fire protection systems, including fire extinguishers. Preferably the fire prevention shall be with zoned dry-pipe sprinkler
+        .Cabling Security including raised floor cabling, for security reasons and to avoid the addition of cooling systems above the 
+        racks
+     }   
+
+ }
+ 
+  Network security controls
+  -------------------------
+  {
+    Virtual attacks can be prevented by using the below techniques:
+    {
+      .Encryption for web applications, files and databases
+      .Audit Logs of all user activities and monitoring the same
+      .Best Practices for password security. Usage of strong passwords and secure usernames which are encrypted via 256-bit SSL, and not 
+       storing them in plain text, set up of scheduled expirations, prevention of password reuse
+      .Role Based Access Control
+      .AD (Active Directory)/LDAP (Lightweight Directory Access Protocol) integration
+      .Controls based on IP (Internet Protocol) addresses
+      .Encryption of the session ID cookies in order to identify each unique user
+      .Dual factor authentication
+      .Frequent third party VAPT (Vulnerability and Penetration Testing)
+      .Malware prevention through firewalls and other network device
+    }
+  }
+
+
