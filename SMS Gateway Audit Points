@@ -1,0 +1,28 @@
+*What are the Web API ?
+*What are the API for Mobile used ?
+*What are the other Software used ?
+*Do those API, Web API are developed in Old Version ?
+*What is the SMS sending Speed i.e 500+/sec ? 
+*What if the Some SMS Get Block in in Que, Do other wait or the process fail ? Try to understand the process .
+*In case of Failure , do they have platform Redundancy ?
+*In case of Failure , do they have Gateway Redundancy ?
+*In case of Failure , do they have Active-Active Sync Redundancy ?
+*Do they Have SLA (Service Level Agreement ?
+*Have they done PT ?
+*Do they Have VPN or Normal HTTP ?
+*Do they Have 2 - Factor Authentication Login ?
+*Do they Have Active Directory Login ? If the understand.
+*How do they Reset Password of the Login ?
+*Who all have access to change password ? 
+*Do they have Passowrd Policy , Procedure ?
+*Do they Have Real time Dashboard ?  How may SMS gone, or Going ?
+*Do they Get SMS Delivery Receipt ?
+*Do they have Campaign Analytics ?
+*Do they have CRM Import/Export ?
+*Are the Cell Number in DND list ? Do they check it ? Check the process.
+*Do They segregate Cell number Zone wise , EST , PST , etc( there 24 time zone )
+*Do they understand cyber Security for the SMS sending region ?
+*In case of SMS not reaching , do they receive any alert .
+*Do they send SMS to same number again if not reached. 
+*Do  They Check number validity ?
+*What is the Message Expiry Period ?
