@@ -1,0 +1,14 @@
+Connecting to Laptop
+--------------------
+{
+  #sudo apt-get install gphoto2 v4l2loopback-utils
+  #gphoto2 --abilities
+  #sudo modprobe v4l2loopback
+  
+  Then unmount the created device from the file manager and launch the command
+  ----------------------------------------------------------------------------
+  #gphoto2 --stdout --capture-movie | ffmpeg -i - -vcodec rawvideo -pix_fmt yuv420p -threads 0 -f v4l2 /dev/video0
+  
+  Write Open CV code.
+  
+}
